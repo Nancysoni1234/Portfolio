@@ -164,6 +164,34 @@ p{
     width: 80px;
     border-radius: 50%;
   }
+  .contact{
+    height: 400px;
+    width: 1280px;
+    background-color: rgb(241, 87, 87);
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px;
+    padding: 20px; */
+  }
+  .contact_divs1{
+    height: 100px;
+    width: 230px;
+    background-color: #218838;
+    margin-top: 130px;
+    margin-left: 70px;
+
+  }
+
+
+
+
+
+
+
+
+
+
   .feedback {
     padding: 20px;
     border-radius: 10px;
