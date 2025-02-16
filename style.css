@@ -1,3 +1,6 @@
+*{
+    color: rgb(69, 68, 68);
+}
 #head{
     height: 60px;
     width: 100%;
@@ -17,22 +20,16 @@ a{
 .parent{
     height: 550px;
     width: 1280px;
-    /* border-radius: 15px;
-    border: solid 3px rgb(115, 6, 59); */
     margin-top: 60px;
     margin-left: 70px;
     display: flex;
     justify-content: space-between;
-    /* background-color: antiquewhite; */
 }
 .child-large{
     height: 400px;
     width: 650px;
-    /* background-color: pink; */
-    /* color: rgb(39, 108, 198); */
     margin-top: 75px;
     margin-left: 50px;
-    /* color: rgb(115, 6, 59); */
 }
 .btn{
     height: 40px;
@@ -46,6 +43,16 @@ a{
     margin-top: 15px;
     margin-right: 10px;
 }
+.child-large i{
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+}
+.child-large a{
+    margin-left: 25px;
+    text-decoration: none;
+}
 .child-small{
     height: 400px;
     width: 400px;
@@ -58,7 +65,6 @@ a{
 #hello{
     width: 30px;
     font-size: 50px;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
     margin-top: 80px;
 }
 .intro{
@@ -73,11 +79,11 @@ p{
 }
 #skill_head{
     margin-left: 670px;
+    margin-top: 120px;
 }
 .skills{
     height: 550px;
     width: 1280px;
-    /* background-color: antiquewhite; */
     margin-left: 50px;
     margin-top: 3px;
     display: flex;
@@ -90,7 +96,6 @@ p{
     height: 150px;
     width: 320px;
     margin-left: 75px;
-    /* background-color: #ccc; */
     text-align: center;
     display: grid;
     place-items: center;
@@ -107,12 +112,10 @@ p{
   .projects{
     height: 850px;
     width: 1280px;
-    /* background-color: aqua;  */
     margin-left: 70px;
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
-    /* border: 2px solid black; */
   }
   .proj_div{
     height: 350px;
@@ -138,60 +141,49 @@ p{
   }
   #Connect_head{
     margin-left: 590px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
-  .connect1{
-    height: 130px;
-    width: 1280px;
-    margin: 80px 0px 0px 240px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .connect2{
-    height: 130px;
-    width: 1280px;
-    margin: 50px 0px 0px 450px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .connect1 img{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-  }
-  .connect2 img{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-  }
-  .contact{
+    .contact{
     height: 400px;
     width: 1280px;
-    background-color: rgb(241, 87, 87);
-    margin-left: 50px;
+    margin-left: 70px;
     display: flex;
     flex-wrap: wrap;
-    /* gap: 10px;
-    padding: 20px; */
   }
   .contact_divs1{
     height: 100px;
     width: 230px;
-    background-color: #218838;
     margin-top: 130px;
-    margin-left: 70px;
-
+    margin-left: 50px;
+    display: flex;
   }
-
-
-
-
-
-
-
-
-
-
+  .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(226, 228, 232);;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+  }
+  .img i{
+    font-size: 25px;
+    color: rgb(39, 108, 198);
+    text-decoration: none;
+  }
+  .contact_divs1 a{
+    text-decoration: none;
+  }
+  .link{
+    height: 65px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  .link p{
+    font-style: normal;
+    color: rgb(83, 81, 81);
+    font-size: 15px;
+  }
   .feedback {
     padding: 20px;
     border-radius: 10px;
