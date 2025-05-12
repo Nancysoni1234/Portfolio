@@ -33,7 +33,7 @@
     margin-top: 75px;
     margin-right: 50px;
     border-radius: 50%;
-    background-image: url("Nancy copy 2.jpeg");
+    background-image: url("Nancy.jpeg");
     background-size: cover;
 }
 .intro{
@@ -110,17 +110,17 @@ p{
 }
 #proj_div1{
     margin-left: 55px;
-    background-image: url("project1 copy 2.webp");
+    background-image: url("project1.webp");
     background-size: cover;
 }
 #proj_div2{
     margin-left: 55px;
-    background-image: url("project2 copy 2.webp");
+    background-image: url("project2.webp");
     background-size: cover;
 }
 #proj_div3{
     margin-left: 370px;
-    background-image: url("error_hunt copy 3.png");
+    background-image: url("certificate.png");
     background-size: cover;
 }
 #connect_head{
